@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Your Name</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header class="navbar">
+    <div class="nav-container">
+        <div class="logo">Your<span>Portfolio</span></div>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+
+        <button class="nav-toggle" id="navToggle">
+            ☰
+        </button>
+    </div>
+</header>
+
+<section class="page-header">
+    <div class="container">
+        <h1>Contact Me</h1>
+        <p>Have an opportunity or just want to say hi? Drop a message below.</p>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container contact-grid">
+        <div class="contact-info">
+            <h2>Let’s connect</h2>
+            <p>
+                You can reach out to me for internships, collaborations or any tech-related discussions.
+                I’ll try my best to respond as soon as possible.
+            </p>
+
+            <ul class="contact-list">
+    <li><span>Email:</span> bhawyagupta22@gmail.com</li>
+    <li><span>Location:</span> Delhi, India</li>
+</ul>
+
+        </div>
+
+        <div class="contact-form-card">
+            <!-- Note: This is a static form – no backend. -->
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input id="name" type="text" placeholder="Enter your name" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input id="email" type="email" placeholder="Enter your email" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="4" placeholder="Write your message..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn primary-btn full-width">
+                    Send Message (UI Only)
+                </button>
+            </form>
+            <p class="form-note">
+                *This is a static form for demo purpose. You can connect with me directly using my email.
+            </p>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <p>© <span id="year"></span> Your Name. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

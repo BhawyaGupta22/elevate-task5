@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Your Name</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="logo">Bhawya<span>Portfolio</span></div>
+
+            <nav class="nav-links" id="navLinks">
+                <a href="index.html" class="active">Home</a>
+                <a href="about.html">About</a>
+                <a href="projects.html">Projects</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+
+            <button class="nav-toggle" id="navToggle">
+                ☰
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <p class="hero-subtitle">Hello, I'm</p>
+            <h1 class="hero-title">Bhawya Gupta</h1>
+            <p class="hero-tagline">Aspiring Software Developer & BCA Student</p>
+            <p class="hero-text">
+                I love building clean, modern and responsive web experiences.  
+                Currently pursuing BCA and exploring web development, problem solving and tech.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="projects.html" class="btn primary-btn">View My Projects</a>
+                <a href="contact.html" class="btn secondary-btn">Contact Me</a>
+            </div>
+
+            <div class="hero-highlights">
+                <div class="highlight-card">
+                    <span class="highlight-number">1+</span>
+                    <span class="highlight-label">Years of Learning</span>
+                </div>
+                <div class="highlight-card">
+                    <span class="highlight-number">5+</span>
+                    <span class="highlight-label">Mini Projects</span>
+                </div>
+                <div class="highlight-card">
+                    <span class="highlight-number">3</span>
+                    <span class="highlight-label">Tech Skills</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <div class="hero-image-card">
+                <div class="circle"></div>
+                <div class="inner-card">
+                    <p>Available for Internships</p>
+                    <span>Frontend · HTML · CSS · JS</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section" id="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <p class="section-subtitle">
+                Here are some of the technologies I’m currently working with.
+            </p>
+
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>HTML &amp; CSS</h3>
+                    <p>Semantic HTML, modern layouts, responsive design and clean UI.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>JavaScript (Basic)</h3>
+                    <p>DOM manipulation, basic interactivity and simple web logic.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Git &amp; GitHub</h3>
+                    <p>Version control, repositories, branches and GitHub Pages deployment.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Programming Fundamentals</h3>
+                    <p>Core concepts from BCA like OOPs, DBMS and CN.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section class="section alt-section">
+        <div class="container">
+            <h2 class="section-title">Featured Project</h2>
+            <p class="section-subtitle">
+                A quick look at one of my recent projects.
+            </p>
+
+            <div class="featured-project">
+                <div class="featured-text">
+                    <h3>ElectroHub – E-Commerce Frontend</h3>
+                    <p>
+                        A responsive electronic products website with product listing, cart UI 
+                        and basic client-side interactions built using HTML, CSS and JavaScript.
+                    </p>
+                    <ul>
+                        <li>Clean product grid layout</li>
+                        <li>Modern color scheme and typography</li>
+                        <li>Simple user flow from home to cart</li>
+                    </ul>
+                    <div class="hero-buttons">
+                        <a href="projects.html" class="btn primary-btn small-btn">View in Projects</a>
+                    </div>
+                </div>
+                <div class="featured-project">
+    <div class="featured-text">
+        <h3>Machine Health Monitoring System</h3>
+        <p>
+            A smart system to monitor machine performance by measuring vibration,
+            temperature and RPM with backend support for data storage & health prediction.
+        </p>
+        <ul>
+            <li>Backend + Dashboard + Machine analytics</li>
+            <li>Real-time monitoring</li>
+            <li>Fault prediction & health status</li>
+        </ul>
+        <div class="hero-buttons">
+            <a href="projects.html" class="btn primary-btn small-btn">View in Projects</a>
+        </div>
+    </div>
+    
+
+        </div>
+    </section>
+
+    <!-- Contact CTA -->
+    <section class="cta-section">
+        <div class="container cta-container">
+            <div>
+                <h2>Let’s work together</h2>
+                <p>If you like my work and want to collaborate or hire me, feel free to reach out.</p>
+            </div>
+            <a href="contact.html" class="btn primary-btn">Say Hello</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© <span id="year"></span> Your Name. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
